@@ -1,2 +1,2 @@
 # PSIT-Projects
-calculator
+-> number guessing game
