@@ -1,4 +1,4 @@
-""" Number Guessing Game"""
+"""Number Guessing Game(V2)"""
 import random
 attempts_list = []
 def show_score():
@@ -6,8 +6,9 @@ def show_score():
         print("There is currently no high score, it's yours for the taking!")
     else:
         print("The current high score is {} attempts".format(min(attempts_list)))
+
 def start_game():
-    random_number = int(random.randint(1, 26))
+    random_number = random.randint(1, 26)
     alphabet = {'1':'A', '2':'B', '3':'C', '4':'D', '5':'E', '6':'F', '7':'G', '8':'H', '9':'I', '10':'J',\
                 '11':'K', '12':'L', '13':'M', '14':'N', '15':'O', '16':'P', '17':'Q', '18':'R', '19':'S', '20':'T', \
                 '21':'U', '22':'V', '23':'W', '24':'X', '25':'Y', '26':'Z'}
